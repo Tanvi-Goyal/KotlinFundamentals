@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
 
         var x = 0
         while (x < arrayList.size) {
-            print("$arrayList[x] ")
+            print(arrayList[x] + " ")
             x++;
         }
 
