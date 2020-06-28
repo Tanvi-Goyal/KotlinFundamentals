@@ -2,6 +2,7 @@ package com.example.kotlinfundamentals
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.kotlinfundamentals.kotlin.Generics
 
 class FundamentalsActivity : AppCompatActivity() {
 
@@ -15,6 +16,7 @@ class FundamentalsActivity : AppCompatActivity() {
         conditionalExpressions()
         loops()
         nullability()
+
     }
 
     private fun loops() {
